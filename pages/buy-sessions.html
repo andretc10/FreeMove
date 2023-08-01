@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../43035/images/logo-sin-fondo.svg" type="image/x-icon">
+</head>
+<body>
+             <!---SOLO DEBE HABER UN H1 POR HTML. PUEDEN HABER VARIOS H2, H3, H4 EN UN MISMO HTML-->
+             <h1>MOVEMENT SCHOOL</h1>
+             <nav>
+                <ul>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="buy-sessions.html">Buy Sessions</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="freemove-plus.html">Freemove Plus</a></li>
+                    <li><a href="meet-our-coaches.html">Meet our coaches</a></li>
+                    <li><a href="metodology.html">Metodology</a></li>
+                    <li><a href="my-account.html">My account</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+             </nav>
+    <main>
+        <form action="php.script.file" method="post">
+            <fieldset>  
+                <legend>Personal information</legend> 
+                Your name</br>
+                    <input type="text" name="name" required />
+                </br>
+                Email Address</br>
+                    <input type="email" name="email" required placeholder="enter a valid email address" />
+                </br>
+                Mobile</br>
+                    <input type="number" name="Mobile" required />
+                </br>
+                Nationality</br>
+                    <input type="text" name="Nationality" required />
+                </br>
+                Date of birth</br>
+                    <input type=date name=birth required/>
+                </br>
+                Emergency contact name</br>
+                    <input type="text" name="Emergency" required />
+                </br>
+                Emergency contact phone</br>
+                    <input type="number" name="Emergenci-phone" required />
+                </br>
+            </fieldset>
+            <fieldset>
+                <legend>Health information</legend>   
+                Blood type</br>
+                    <select name="Blood">
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    </select>
+                </br>
+                EPS</br>
+                    <select name="EPS">
+                    <option value="SURA">SURA</option>
+                    <option value="Coomeva">Coomeva</option>
+                    <option value="Sanitas">Sanitas</option>
+                    <option value="Nueva EPS">Nueva EPS</option>
+                    <option value="Salud Total">Salud Total</option>
+                    <option value="Compensar">Compensar</option>
+                    <option value="Comfenalco">Comfenalco</option>
+                    <option value="Otra">Otra</option>
+                    </select> 
+                </br>   
+            </fieldset>
+            <fieldset>
+                <legend>Additional information</legend> 
+                Do you practice a sport/discipline?</br>
+                    <select name="discipline">
+                    <option value="Climbing">Climbing</option>
+                    <option value="Skateboarding">skateboarding</option>
+                    <option value="BMX">BMX</option>
+                    <option value="Artistic roller skateboarding">Artistic roller skateboarding</option>
+                    <option value="Biking">Biking</option>
+                    <option value="Dance">Dance</option>
+                    <option value="Other">Other</option>
+                    <option value="I dont practice any sport">I dont practice any sport</option>
+                    </select>   
+                </br>
+                How did you hear about us</br>
+                    <input type="checkbox" name="hear" value="social media" /> Social media
+                    <input type="checkbox" name="hear" value="google/search engine" /> google/search engine
+                    <input type="checkbox" name="hear" value="Word of mouth" /> Word of mouth
+                    <input type="checkbox" name="hear" value="Walk-by" />Walk-by
+                </br>
+            </fieldset>
+            </form>
+    </main>
+    <footer>
+        <form action="php.script.file" method="post">
+            <fieldset>  
+                <legend>Let's get you connected to the experience team!</legend> 
+                Your name</br>
+                    <input type="text" name="name" required />    
+                </br>
+                Phone number</br>
+                    <input type="number" name="Mobile" required />
+                </br>
+                Email Address</br>
+                    <input type="email" name="email" required placeholder="enter a valid email address" />
+                </br>
+                Comment </br>
+                    <textarea>your message here</textarea>
+                </br>
+                <button type="submit">Send now</button>
+                
+            </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
