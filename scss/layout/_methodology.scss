@@ -1,0 +1,29 @@
+#content-meth-1 {
+    position:absolute;
+    top: 30px;
+    left: 24px;
+}
+
+#content-meth-2 {
+    position:absolute;
+    top: 125px;
+    padding: 24px;
+}
+
+#content-meth-3 {
+    position:absolute;
+    bottom: 0px;
+    padding: 24px;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.meth
+{
+    overflow: hidden;
+    &:hover img{
+        transform: scale(1.5, 1.5);
+        }
+    }

@@ -1,0 +1,60 @@
+.nav-sessions{
+    width: 25%;
+    height: 3280.98px;
+}
+
+.nav-link{
+height: 44px;
+padding-left: 56px;
+color:$color-light;
+    &:hover{
+        color:$color-light; 
+    }
+}
+
+.nav-item{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 8px;
+    &:hover {
+        background-color: #5E5D73;
+    }
+}
+
+.active {
+padding-left: 8px; 
+}
+
+.main-sessions{
+    display: flex;
+    position: relative;
+    section{
+        display: flex;
+        flex-direction:column;
+        padding: 0px 60px 60px 60px;
+            h2{
+                padding: 60px 60px 36px 60px;
+                color: $color-blue;
+            }
+            h3{
+                font-size: 35px;
+                padding: 24px 0px;
+            }
+    }
+}
+
+
+.card-title{
+    font-size: 35px;
+    color: $color-blue;
+}
+
+.card-body{
+    text-align: center;
+
+}
+
+.card-text{
+    margin: 24px;
+}

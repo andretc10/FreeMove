@@ -1,0 +1,67 @@
+.cards-community{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;   
+}
+
+.card-community{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    background-color: #16152C;
+    border: none;
+}
+
+.card__content-community{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 150px 30px 150px;
+    gap: 24px;
+    width: 100%;
+}
+
+.img-btn{
+    width: 100%;
+}
+
+.img-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.follow-atleth{
+    position: relative;
+    width: 237px;
+    z-index: 13;
+    bottom: 150px;
+    left: 150px;
+}
+
+#galery section{
+    -webkit-text-fill-color:#16152C;
+    text-align:center;
+    padding: 60px;
+}
+
+/*mediaqueries */
+
+@media screen and (max-width:768px) {
+
+    .card__content-community{
+
+        padding: 30px 60px 30px 60px;
+    }
+
+    .follow-atleth{
+        bottom: 90px;
+        left: 60px;
+    }
+}
