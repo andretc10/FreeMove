@@ -36,6 +36,7 @@ display: flex;
 flex-direction: row;
 align-items:end;
 transition: 0.3s;
+color:$color-light;
     &:hover .nombre-oficial {
     display: none;
     }
