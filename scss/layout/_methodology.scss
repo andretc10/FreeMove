@@ -1,20 +1,21 @@
-#content-meth-1 {
-    position:absolute;
-    top: 30px;
-    left: 24px;
-}
-
-#content-meth-2 {
-    position:absolute;
-    top: 125px;
-    padding: 24px;
-}
-
-#content-meth-3 {
+#content-meth {
     position:absolute;
     bottom: 0px;
     padding: 24px;
 }
+
+#content-meth-1 {
+    @extend #content-meth;
+    top: 30px;
+    padding-right: 16px;
+}
+
+#content-meth-2 {
+    @extend #content-meth;
+    position:absolute;
+    top: 125px;
+}
+
 
 .container{
     max-width: 100%;
@@ -27,3 +28,25 @@
         transform: scale(1.5, 1.5);
         }
     }
+
+.row-meth{
+    gap: 24px;
+}
+
+.justify-content-center{
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    #content-meth{
+        h3{
+            font-size: 18px;
+            }
+        }
+
+    #content-meth-2{
+        top: 24px;
+    }
+}

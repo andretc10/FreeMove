@@ -56,3 +56,21 @@ p {
 .color-red{
     color:$color-green;
 }
+
+.p-1{
+    font-size: $p-1;
+}
+
+.p-2{
+    font-size: $p-2;
+}
+
+@mixin flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+}

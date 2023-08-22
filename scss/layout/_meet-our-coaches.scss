@@ -1,3 +1,10 @@
+.card{
+    background-color: $color-red;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+
 .bi-arrow-right-circle {
     color:$color-light;
 }
@@ -8,20 +15,7 @@
         font-style: italic;
         font-weight:lighter;
         text-align: right;
-    }
-}
-
-
-.card__content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 30px;
-    gap: 24px;
-    width: 50%;
-    img{
-        width: 148px;
+        font-size: 18px;
     }
 }
 
@@ -35,6 +29,7 @@ margin-top: 450px;
 display: flex;
 flex-direction: row;
 align-items:end;
+justify-content: space-between;
 transition: 0.3s;
 color:$color-light;
     &:hover .nombre-oficial {
@@ -52,17 +47,38 @@ color:$color-light;
     &:hover .text-hided {
         display:flex;
         flex-direction: column;
-        gap:40px;
+        gap:24px;
     }
     &:hover {
-        margin-top: 100px;
+        margin-top: 24px;
         align-items:flex-start;
     }
 }
 
-.card{
-    background-color: $color-red;
-    border: none;
-    position: relative;
-    z-index: 1;
+.col-lg-4{
+    p{
+        font-size: 14px;
+    }
+}
+
+.col-md-7{
+    margin: 24px;
+}
+
+
+/*mediaqueries */
+@media screen and (max-width:1170px) {
+    .col-lg-4{
+        p{
+            font-size: 12px;
+        }
+}
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        p{
+            font-size: 16px;
+        }
+}
 }

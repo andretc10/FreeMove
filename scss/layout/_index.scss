@@ -8,8 +8,7 @@ iframe {
 }
 
 .cards {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     justify-content: center;
     align-items: center;
     padding: 30px;
@@ -17,8 +16,7 @@ iframe {
 }
 
 .card-index {
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content:left;
     align-items: center;
     width: 90%;
@@ -37,6 +35,19 @@ iframe {
     }
     &:nth-child(odd){
         flex-direction:row-reverse;
+    }
+}
+
+.card__content{
+    @include flex-column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 24px;
+    width: 50%;
+    width: 90%;
+    img{
+        width: 148px;
     }
 }
 
