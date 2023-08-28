@@ -58,6 +58,19 @@ gap: 20PX;
         margin: 24px;
     }
     .input {
-        width: 70%;
+        width: 90%;
     }
+}
+
+@media screen and (max-width:480px) {
+    .row{
+        padding:16px;
+        div{
+            padding:0px;  
+        }
+    }
+    #footer {
+        padding:0px;
+        padding-bottom:60px;
+            }
 }

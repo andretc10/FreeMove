@@ -1,6 +1,8 @@
 .nav-sessions{
     width: 400px;
-    height: 3280.98px;
+    height: 895px;
+    position: sticky;
+    top: 0;
 }
 
 .nav-link{
@@ -67,18 +69,12 @@ color:$color-light;
 
 @media screen and (max-width:1160px) {
     .nav-sessions {
-        height: 3783px;
-}
-}
-
-@media screen and (max-width:990px) {
-    .nav-sessions {
-        height: 5231px;
+        height: 830px;
 }
 }
 
 @media screen and (max-width:815px) {
     .nav-sessions {
-        height: 5654px;
+        height: 850px;
 }
 }

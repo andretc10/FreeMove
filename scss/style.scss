@@ -1,10 +1,7 @@
 //base
 @import 'base/variables';
 @import 'base/reset';
-
-//components
-@import 'components/footer';
-@import 'components/navbar';
+@import 'base/mixins';
 
 //layout
 @import 'layout/buy-sessions';
@@ -12,3 +9,7 @@
 @import 'layout/index';
 @import 'layout/meet-our-coaches';
 @import 'layout/methodology';
+
+//components
+@import 'components/footer';
+@import 'components/navbar';

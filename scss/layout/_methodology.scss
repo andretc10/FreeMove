@@ -42,11 +42,24 @@
 @media screen and (max-width:768px) {
     #content-meth{
         h3{
-            font-size: 18px;
+            font-size: $p-2;
             }
         }
+
+        #content-meth-1{
+            h3{
+                font-size: $p-3;
+                }
+            }
 
     #content-meth-2{
         top: 24px;
     }
+}
+
+
+@media screen and (max-width:480px) {
+    #h1-meth{
+        font-size: $p-4;
+        }
 }
