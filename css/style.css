@@ -427,6 +427,10 @@ iframe {
   transform: scale(1.5, 1.5);
 }
 
+.hover-size:hover img {
+  width: 300px;
+}
+
 .row-meth {
   gap: 24px;
 }
